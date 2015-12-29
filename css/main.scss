@@ -1,0 +1,148 @@
+@import 'colors.scss';
+
+//Default font, site-wide
+nav, footer.page-footer {
+  	background-color:$bright-red;
+}
+
+//General tags
+.max-width-height {
+	width:100%;
+	height:100%;
+}
+
+.col {
+	padding-right:0px !important;
+	padding-left:0px !important;
+}
+
+.row {
+	margin-bottom:0px;
+}
+
+//Header image
+.header {
+  background-image: url("/images/HNCK8377_dark.jpg");
+  background-position:center;
+  background-size:cover;
+  min-height:500px;
+  font-size:35px;
+  color:#FFFFFF;
+
+}
+
+.header p {
+	margin-bottom:0px;	
+	margin-top:0px;
+	font-family:'Roboto Slab',serif;
+	font-size:20px;
+}
+
+.name-text {
+	font-weight:bold;
+	font-size:3.5em;
+	color:#FFC914;
+	line-height: 70%;
+}
+
+.yellow-text {
+	color:$dark-yellow;
+}
+
+//Body content (About me, skills, work)
+.body h1, h2, h3, h4, h5 {
+	padding-top:20px;
+	font-weight:bold;
+}
+
+.body p {
+	font-size:16px;
+	font-family:'Roboto Slab',serif;
+}
+
+//About
+.about {
+	background-color:$light-grey;
+}
+
+.about p {
+	font-size:16px;
+	color:#646464;
+}
+
+.about h1, h2, h3, h4, h5 {
+	//color: #ff5847;
+	font-weight:bold;
+}
+
+//Experience
+.experience p {
+ 	font-size:16px;
+ 	color:#969fa8;
+}
+
+.white-text {
+	color:#FFFFFF;
+}
+
+.experience h2, .experience h4{
+ 	color:$dark-yellow;
+}
+
+.quote {
+	font-family: 'Coustard', serif;
+	font-size:2em;
+	line-height:30px;
+	color:#FFFFFF; 
+}
+
+.capitalize {
+	text-transform: uppercase;
+}
+
+//Background images
+.background-img1 {
+	background-image: url("/images/HNCK8368.jpg");
+	min-height:500px;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.background-img2 {
+	background-image: url("/images/HNCK9012_light.jpg");
+	min-height:500px;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.background-img3 {
+	background-image: url("/images/HNCK8991_dark.jpg");
+	min-height:500px;
+	background-position:top;
+
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.background-img4 {
+	background-image: url("/images/HNCK5393.jpg");
+	min-height:500px;
+	background-position:center;
+
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.background-darkblue {
+	background-color: #192632;
+	min-height:500px;
+}
+
+.background-white {
+	background-color: #FFFFFF;
+	min-height:500px;
+}
+
+
+

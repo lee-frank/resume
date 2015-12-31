@@ -1,148 +1,118 @@
 @import 'colors.scss';
 
-//Default font, site-wide
-nav, footer.page-footer {
-  	background-color:$bright-red;
+@media (min-width:600px) {
+	.border-left {
+	    border-left: 10px solid $teal-blue;
+	    padding-left:25px;
+	}
 }
 
-//General tags
-.max-width-height {
-	width:100%;
-	height:100%;
+//Universal
+body {
+	background-color:$background-color;
+	background-image: url("/images/45-degree-fabric-dark.png");
 }
 
-.col {
-	padding-right:0px !important;
-	padding-left:0px !important;
+.main-container {
+	margin:5% 15% 5% 15%;
 }
 
-.row {
-	margin-bottom:0px;
+section.main {
+	background-color:$white;
+	background-image:url("/images/45-degree-fabric-light.png");
 }
 
-//Header image
-.header {
-  background-image: url("/images/HNCK8377_dark.jpg");
-  background-position:center;
-  background-size:cover;
-  min-height:500px;
-  font-size:35px;
-  color:#FFFFFF;
-
+.padding-wrap {
+	padding-left:20px;
+	padding-right:20px;
 }
 
-.header p {
-	margin-bottom:0px;	
-	margin-top:0px;
+h1, h2, h3, h4, h5 {
+	font-weight:bold;
 	font-family:'Roboto Slab',serif;
-	font-size:20px;
+	color: $dark-grey;
+}
+
+.top-align, .top-align h4, .top-align h3 {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  padding:0px;
+}
+
+p {
+	font: 1.1em 'Droid Sans', sans-serif;
+	color: $med-grey;
+	line-height:25px;
+}
+
+//Navigation
+nav, nav ul a, nav a, nav .brand-logo {
+	color: #ef6c00;
+	background-color:$white;
+	font-size:1.1em;
+}
+
+//Header
+section.header {
+	background-color:$white;
+	padding-top:5%;
+	padding-bottom:5%;
+	//background-image: url("/images/logos/cover_image.jpg");
+	background-image:url("/images/45-degree-fabric-light.png");
 }
 
 .name-text {
-	font-weight:bold;
-	font-size:3.5em;
-	color:#FFC914;
-	line-height: 70%;
+    font: 5em sans-serif;
+    font-weight: bold;
+    color: $dark-grey;
 }
 
-.yellow-text {
-	color:$dark-yellow;
+.sub-name-text {
+	font: 1.8em 'Droid Serif', serif;
+    font-weight: normal;
+    color: $med-grey;
 }
 
-//Body content (About me, skills, work)
-.body h1, h2, h3, h4, h5 {
-	padding-top:20px;
-	font-weight:bold;
+.header p {
+	font: 1.6em 'Droid Sans', sans-serif;
+    line-height: 1.2em;
+    font-weight: 400;
+    color: $med-light-grey;
 }
 
-.body p {
-	font-size:16px;
-	font-family:'Roboto Slab',serif;
+.profile-border {
+	background-color:$white;
+	//background-image:url("/images/rough-diagonal.png");
+	padding:5%;
+	max-width:400px;
+	max-height:400px;
+
 }
 
-//About
-.about {
-	background-color:$light-grey;
+img.profile-pic {
+    display: block;
+    max-width:100%;
+    max-height:100%;
+    width: auto;
+    height: auto;
+
 }
 
-.about p {
-	font-size:16px;
-	color:#646464;
-}
-
-.about h1, h2, h3, h4, h5 {
-	//color: #ff5847;
-	font-weight:bold;
+//Portfolio
+.small {
+	max-height:200px;	
+	max-width:200px;
 }
 
 //Experience
-.experience p {
- 	font-size:16px;
- 	color:#969fa8;
+.grey-sub-text {
+	font: 1.3em 'Droid Serif', serif;
+    font-weight: normal;
+    color: $dark-grey;
 }
 
-.white-text {
-	color:#FFFFFF;
-}
 
-.experience h2, .experience h4{
- 	color:$dark-yellow;
-}
-
-.quote {
-	font-family: 'Coustard', serif;
-	font-size:2em;
-	line-height:30px;
-	color:#FFFFFF; 
-}
-
-.capitalize {
-	text-transform: uppercase;
-}
-
-//Background images
-.background-img1 {
-	background-image: url("/images/HNCK8368.jpg");
-	min-height:500px;
-	background-size:cover;
-	background-repeat:no-repeat;
-}
-
-.background-img2 {
-	background-image: url("/images/HNCK9012_light.jpg");
-	min-height:500px;
-	background-position:center;
-	background-size:cover;
-	background-repeat:no-repeat;
-}
-
-.background-img3 {
-	background-image: url("/images/HNCK8991_dark.jpg");
-	min-height:500px;
-	background-position:top;
-
-	background-size:cover;
-	background-repeat:no-repeat;
-}
-
-.background-img4 {
-	background-image: url("/images/HNCK5393.jpg");
-	min-height:500px;
-	background-position:center;
-
-	background-size:cover;
-	background-repeat:no-repeat;
-}
-
-.background-darkblue {
-	background-color: #192632;
-	min-height:500px;
-}
-
-.background-white {
-	background-color: #FFFFFF;
-	min-height:500px;
-}
 
 
 
